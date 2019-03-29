@@ -15,7 +15,9 @@ Various templates of data structures and abstract data types implimented in C++.
 ## Instructions
 
 Compile with: `make all` and g++ installed
+
 Run with `./driver.exe`, no parameters
+
 Delete with `make clean`
 
 ## Classes overview
