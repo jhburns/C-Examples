@@ -1,7 +1,8 @@
 #include <iostream>
 
-#include "def.hpp"
-
+#include "exceptions.hpp"
+#include "list.hpp"
+#include "tree.hpp"
 
 EmptyException::EmptyException() {
   msg = "Exception: this is empty, cannot remove";

@@ -8,11 +8,11 @@ OUTPUT = *.out
 
 all: clean driver.exe
 
-imp.o: Makefile imp.cpp
-	$(CC) $(BUILD_FLAGS) -c imp.cpp -o imp.o
+implementation.o: Makefile implementation.cpp
+	$(CC) $(BUILD_FLAGS) -c implementation.cpp -o implementation.o
 
-driver.exe: Makefile imp.o driver.cpp
-	$(CC) $(BUILD_FLAGS) imp.o driver.cpp -o driver.exe
+driver.exe: Makefile implementation.o driver.cpp
+	$(CC) $(BUILD_FLAGS) implementation.o driver.cpp -o driver.exe
 
 clean:
 	$(RM) -f $(EXES) $(OBJECTS) $(OUTPUT)

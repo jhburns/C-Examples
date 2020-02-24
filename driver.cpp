@@ -1,13 +1,15 @@
 #include <iostream>
 
-#include "def.hpp"
+#include "list.hpp"
+#include "exceptions.hpp"
+#include "tree.hpp"
 
 using namespace std;
 
 int main()
 {
   try {
-    //For testing
+    //Test anything here
     cout << "Hello!" << endl;
 
   } catch(NotFoundException& e) {
